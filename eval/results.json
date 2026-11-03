@@ -1,0 +1,590 @@
+{
+  "n_questions": 48,
+  "n_docs": 701,
+  "results": [
+    {
+      "config": "bm25_only",
+      "hit@1": 0.583,
+      "hit@3": 0.688,
+      "hit@10": 0.812,
+      "mrr": 0.654,
+      "p50_ms": 9,
+      "p95_ms": 13,
+      "misses_top3": [
+        [
+          "The soul is never born and never dies",
+          [
+            "2.20"
+          ],
+          [
+            "14.15",
+            "2.24",
+            "18.33"
+          ]
+        ],
+        [
+          "Whenever righteousness declines I take birth on earth",
+          [
+            "4.7"
+          ],
+          [
+            "8.16",
+            "14.4",
+            "2.27"
+          ]
+        ],
+        [
+          "I come age after age to protect the good and destroy evil",
+          [
+            "4.8"
+          ],
+          [
+            "7.29",
+            "6.33",
+            "2.57"
+          ]
+        ],
+        [
+          "Give up all other duties and just surrender to me, I will free you from sin",
+          [
+            "18.66"
+          ],
+          [
+            "8.7",
+            "1.34",
+            "3.9"
+          ]
+        ],
+        [
+          "Anger leads to confusion, confusion to loss of memory, and then the person is ruined",
+          [
+            "2.63"
+          ],
+          [
+            "16.22",
+            "16.21",
+            "3.32"
+          ]
+        ],
+        [
+          "Raise yourself by your own mind, the mind can be your friend or your enemy",
+          [
+            "6.5",
+            "6.6"
+          ],
+          [
+            "10.15",
+            "8.7",
+            "11.45"
+          ]
+        ],
+        [
+          "Yoga is skill in action",
+          [
+            "2.50"
+          ],
+          [
+            "10.10",
+            "4.16",
+            "14.16"
+          ]
+        ],
+        [
+          "I am time, the mighty destroyer of the worlds",
+          [
+            "11.32"
+          ],
+          [
+            "10.28",
+            "10.33",
+            "10.30"
+          ]
+        ],
+        [
+          "Desire and anger born of passion are the great enemy of man",
+          [
+            "3.37"
+          ],
+          [
+            "14.7",
+            "16.21",
+            "7.27"
+          ]
+        ],
+        [
+          "Heat and cold, pleasure and pain come and go; endure them patiently",
+          [
+            "2.14"
+          ],
+          [
+            "14.25",
+            "12.18",
+            "6.7"
+          ]
+        ],
+        [
+          "Among the Vedas I am the Sama Veda and among the senses I am the mind",
+          [
+            "10.22"
+          ],
+          [
+            "10.29",
+            "10.30",
+            "10.21"
+          ]
+        ],
+        [
+          "Whoever remembers me while leaving the body at death comes to me",
+          [
+            "8.5"
+          ],
+          [
+            "8.6",
+            "2.13",
+            "4.9"
+          ]
+        ],
+        [
+          "One who hates no being, is friendly and compassionate, is dear to me",
+          [
+            "12.13"
+          ],
+          [
+            "5.7",
+            "11.55",
+            "12.15"
+          ]
+        ],
+        [
+          "Everyone's faith matches their own nature",
+          [
+            "17.3"
+          ],
+          [
+            "17.2",
+            "18.47",
+            "2.41"
+          ]
+        ],
+        [
+          "My delusion is gone, my doubts are cleared and I will do as you say",
+          [
+            "18.73"
+          ],
+          [
+            "10.19",
+            "6.39",
+            "2.34"
+          ]
+        ]
+      ]
+    },
+    {
+      "config": "semantic_only",
+      "hit@1": 0.312,
+      "hit@3": 0.667,
+      "hit@10": 0.812,
+      "mrr": 0.494,
+      "p50_ms": 53,
+      "p95_ms": 71,
+      "misses_top3": [
+        [
+          "Do your work but don't be attached to the results",
+          [
+            "2.47"
+          ],
+          [
+            "3.9",
+            "2.39",
+            "18.28"
+          ]
+        ],
+        [
+          "Whenever righteousness declines I take birth on earth",
+          [
+            "4.7"
+          ],
+          [
+            "8.16",
+            "4.6",
+            "14.2"
+          ]
+        ],
+        [
+          "I come age after age to protect the good and destroy evil",
+          [
+            "4.8"
+          ],
+          [
+            "16.21",
+            "16.9",
+            "11.18"
+          ]
+        ],
+        [
+          "Give up all other duties and just surrender to me, I will free you from sin",
+          [
+            "18.66"
+          ],
+          [
+            "2.47",
+            "18.47",
+            "3.35"
+          ]
+        ],
+        [
+          "Yoga is skill in action",
+          [
+            "2.50"
+          ],
+          [
+            "4.42",
+            "2.48",
+            "8.12"
+          ]
+        ],
+        [
+          "I am time, the mighty destroyer of the worlds",
+          [
+            "11.32"
+          ],
+          [
+            "11.43",
+            "9.8",
+            "8.15"
+          ]
+        ],
+        [
+          "Desire and anger born of passion are the great enemy of man",
+          [
+            "3.37"
+          ],
+          [
+            "14.7",
+            "18.24",
+            "18.27"
+          ]
+        ],
+        [
+          "Heat and cold, pleasure and pain come and go; endure them patiently",
+          [
+            "2.14"
+          ],
+          [
+            "3.39",
+            "18.36",
+            "5.22"
+          ]
+        ],
+        [
+          "Treat pleasure and pain, gain and loss, victory and defeat as the same and then fight",
+          [
+            "2.38"
+          ],
+          [
+            "14.16",
+            "17.25",
+            "18.36"
+          ]
+        ],
+        [
+          "One who sees inaction in action and action in inaction is truly wise",
+          [
+            "4.18"
+          ],
+          [
+            "18.25",
+            "2.60",
+            "18.39"
+          ]
+        ],
+        [
+          "Nothing in this world purifies like knowledge",
+          [
+            "4.38"
+          ],
+          [
+            "13.3",
+            "13.10",
+            "13.12"
+          ]
+        ],
+        [
+          "One who hates no being, is friendly and compassionate, is dear to me",
+          [
+            "12.13"
+          ],
+          [
+            "12.19",
+            "7.17",
+            "12.17"
+          ]
+        ],
+        [
+          "I am seated in the hearts of all beings and from me come memory and knowledge",
+          [
+            "15.15"
+          ],
+          [
+            "13.3",
+            "7.26",
+            "13.19"
+          ]
+        ],
+        [
+          "Wherever Krishna and Arjuna are, there will be prosperity, victory and righteousness",
+          [
+            "18.78"
+          ],
+          [
+            "10.16",
+            "11.55",
+            "2.38"
+          ]
+        ],
+        [
+          "For those who worship me with single-minded devotion, I bring what they lack and protect what they have",
+          [
+            "9.22"
+          ],
+          [
+            "12.4",
+            "7.20",
+            "12.13"
+          ]
+        ],
+        [
+          "A sage of steady wisdom is not shaken by sorrow, does not crave pleasure, and is free from fear and anger",
+          [
+            "2.56"
+          ],
+          [
+            "14.16",
+            "18.51",
+            "6.21"
+          ]
+        ]
+      ]
+    },
+    {
+      "config": "hybrid_70_30",
+      "hit@1": 0.708,
+      "hit@3": 0.771,
+      "hit@10": 0.875,
+      "mrr": 0.755,
+      "p50_ms": 64,
+      "p95_ms": 73,
+      "misses_top3": [
+        [
+          "The soul is never born and never dies",
+          [
+            "2.20"
+          ],
+          [
+            "14.15",
+            "13.32",
+            "2.30"
+          ]
+        ],
+        [
+          "Whenever righteousness declines I take birth on earth",
+          [
+            "4.7"
+          ],
+          [
+            "8.16",
+            "2.27",
+            "9.21"
+          ]
+        ],
+        [
+          "I come age after age to protect the good and destroy evil",
+          [
+            "4.8"
+          ],
+          [
+            "2.57",
+            "16.13",
+            "7.29"
+          ]
+        ],
+        [
+          "Give up all other duties and just surrender to me, I will free you from sin",
+          [
+            "18.66"
+          ],
+          [
+            "8.7",
+            "3.9",
+            "3.30"
+          ]
+        ],
+        [
+          "Anger leads to confusion, confusion to loss of memory, and then the person is ruined",
+          [
+            "2.63"
+          ],
+          [
+            "18.39",
+            "2.62",
+            "16.22"
+          ]
+        ],
+        [
+          "Yoga is skill in action",
+          [
+            "2.50"
+          ],
+          [
+            "4.42",
+            "2.48",
+            "6.23"
+          ]
+        ],
+        [
+          "I am time, the mighty destroyer of the worlds",
+          [
+            "11.32"
+          ],
+          [
+            "10.28",
+            "10.33",
+            "10.30"
+          ]
+        ],
+        [
+          "Desire and anger born of passion are the great enemy of man",
+          [
+            "3.37"
+          ],
+          [
+            "14.7",
+            "14.12",
+            "14.16"
+          ]
+        ],
+        [
+          "Heat and cold, pleasure and pain come and go; endure them patiently",
+          [
+            "2.14"
+          ],
+          [
+            "6.7",
+            "5.21",
+            "14.25"
+          ]
+        ],
+        [
+          "One who hates no being, is friendly and compassionate, is dear to me",
+          [
+            "12.13"
+          ],
+          [
+            "12.19",
+            "12.17",
+            "7.17"
+          ]
+        ],
+        [
+          "My delusion is gone, my doubts are cleared and I will do as you say",
+          [
+            "18.73"
+          ],
+          [
+            "2.63",
+            "16.8",
+            "10.19"
+          ]
+        ]
+      ]
+    },
+    {
+      "config": "production_hybrid_expand_rerank",
+      "hit@1": 0.75,
+      "hit@3": 0.854,
+      "hit@10": 0.896,
+      "mrr": 0.8,
+      "p50_ms": 1768,
+      "p95_ms": 2525,
+      "misses_top3": [
+        [
+          "Whenever righteousness declines I take birth on earth",
+          [
+            "4.7"
+          ],
+          [
+            "8.16",
+            "13.24",
+            "2.27"
+          ]
+        ],
+        [
+          "I come age after age to protect the good and destroy evil",
+          [
+            "4.8"
+          ],
+          [
+            "1.42",
+            "11.32",
+            "2.57"
+          ]
+        ],
+        [
+          "Give up all other duties and just surrender to me, I will free you from sin",
+          [
+            "18.66"
+          ],
+          [
+            "3.30",
+            "2.7",
+            "18.47"
+          ]
+        ],
+        [
+          "Yoga is skill in action",
+          [
+            "2.50"
+          ],
+          [
+            "6.18",
+            "6.24",
+            "6.4"
+          ]
+        ],
+        [
+          "I am time, the mighty destroyer of the worlds",
+          [
+            "11.32"
+          ],
+          [
+            "10.30",
+            "11.23",
+            "9.18"
+          ]
+        ],
+        [
+          "Heat and cold, pleasure and pain come and go; endure them patiently",
+          [
+            "2.14"
+          ],
+          [
+            "6.7",
+            "12.18",
+            "14.25"
+          ]
+        ],
+        [
+          "One who hates no being, is friendly and compassionate, is dear to me",
+          [
+            "12.13"
+          ],
+          [
+            "12.15",
+            "12.17",
+            "11.55"
+          ]
+        ]
+      ]
+    }
+  ]
+}
