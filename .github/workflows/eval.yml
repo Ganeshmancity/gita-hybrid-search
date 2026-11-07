@@ -1,0 +1,30 @@
+name: retrieval-eval
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Get the Gita dataset (pinned commit)
+        run: |
+          git clone https://github.com/vedicscriptures/bhagavad-gita data/bhagavad-gita
+          git -C data/bhagavad-gita checkout 43dfc8db815d01e15a347ea294b089334cf2aa17
+      - name: Install
+        run: |
+          pip install --index-url https://download.pytorch.org/whl/cpu torch==2.13.0
+          pip install -r requirements.txt
+      - name: Build index
+        run: python src/build_index.py
+      - name: Run eval
+        run: python eval/retrieval_eval.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eval-results
+          path: eval/results.json
