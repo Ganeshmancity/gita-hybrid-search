@@ -23,7 +23,7 @@ from sentence_transformers import SentenceTransformer  # noqa: E402
 
 from src.prepare_documents import prepare_documents  # noqa: E402
 
-DATA_DIR = os.getenv("GITA_DATA", "data/bhagavad-gita/slokas")
+DATA_DIR = os.getenv("GITA_DATA", "data/bhagavad-gita/slok")
 
 
 def main():
