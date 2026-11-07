@@ -38,9 +38,14 @@ What I took from it:
 
 ## Running it
 
-Needs the prebuilt index (`gita_index_cache.pkl`), which isn't in this repo.
+Everything needed to get the same numbers is here. The verses come from the open [vedicscriptures/bhagavad-gita](https://github.com/vedicscriptures/bhagavad-gita) dataset (GPL-3), pinned to the commit I used. Library versions are pinned in `requirements.txt`.
 
 ```
-pip install faiss-cpu sentence-transformers rank-bm25 torch
+git clone https://github.com/vedicscriptures/bhagavad-gita data/bhagavad-gita
+git -C data/bhagavad-gita checkout 43dfc8db815d01e15a347ea294b089334cf2aa17
+pip install -r requirements.txt   # Python 3.12
+python src/build_index.py
 python eval/retrieval_eval.py
 ```
+
+The same steps run on GitHub Actions on every push ([retrieval-eval workflow](../../actions/workflows/eval.yml)), from a clean machine. Accuracy matches the table above exactly. Latency is lower there (rerank p50 ~0.45 s) because the runner CPU is faster than my laptop.
